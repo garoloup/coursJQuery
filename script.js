@@ -1,10 +1,10 @@
 // event ready on document
 //$(document).ready(function() {
 $(function() {
-    $("#p1").mouseenter(function() {
+    $("#p1").hover(function() {
         $('#p5').hide();
-    })
-    $("#p1").mouseleave(function() {
+    },
+    function() {
         $('#p5').show();
     })
 
