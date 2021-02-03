@@ -1,6 +1,8 @@
-$(document).ready(function() {
-//    $("p").hide();
-//    $(".par1").hide();
-//    $("#it1").hide();
-    $("p:nth-child(2)").hide();
+// event ready on document
+//$(document).ready(function() {
+$(function() {
+    $("#p1").click(function() {
+        $('#p5').hide();
+    })
+
 })
