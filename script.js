@@ -1,11 +1,11 @@
 // event ready on document
 //$(document).ready(function() {
 $(function() {
-    $("#p1").click(function() {
-            $("#p5").fadeTo(1000,0.5);
-        }
-    )
-
-//    $("#p5").fadeOut();
+    $("button").click(function()
+                     {
+        $("div").animate({left:'600px'}, 2000, function() {
+            $("div").hide();
+        });
+    })
 
 })
