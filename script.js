@@ -10,7 +10,7 @@ $(function() {
     });
 
     $("#stop").click(function() {
-        $("div").stop();
+        $("div").stop(true);  // stop all animations
 
     });
 
