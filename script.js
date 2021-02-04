@@ -2,7 +2,7 @@
 //$(document).ready(function() {
 $(function() {
     $("#p1").click(function() {
-            $("#p5").toggle(1000);
+            $("#p5").fadeOut(1000);
         }
     )
 
