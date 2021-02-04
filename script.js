@@ -2,7 +2,7 @@
 //$(document).ready(function() {
 $(function() {
     $("#p1").click(function() {
-            $("#p5").hide("slow");
+            $("#p5").hide(3000);
         }
     )
 
