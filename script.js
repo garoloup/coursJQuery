@@ -3,12 +3,10 @@
 $(function() {
     $("button").click(function()
                      {
-        $("div").animate({
-            left:'600px',
-            opacity: 0.2,
-            width: '+=200px',
-            height: '+=300px'
-        }, 2000 );
+        $("div").animate({left:'600px',}, 2000 );
+        $("div").animate({opacity:'0.2',}, 2000 );
+        $("div").animate({width:'200px',}, 2000 );
+        $("div").animate({height:'200px',}, 2000 );
     })
 
 })
