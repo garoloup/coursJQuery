@@ -6,7 +6,7 @@ $(function() {
 //        var mylog = $("div").attr("style");
 //        console.log(mylog);
 
-        $("#p1").html("Mon <b>nouveau</b> texte");
+        $("#myInput").val("Entrer votre nom...");
 
     })
 
