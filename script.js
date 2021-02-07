@@ -3,7 +3,7 @@
 $(function() {
 
     $("#start").click( function() {
-        $("div").after("<p>Un nouveau paragraphe...</p>");
+        $("div").before("<p>Un nouveau paragraphe...</p>");
 
     })
 
