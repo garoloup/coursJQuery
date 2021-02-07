@@ -1,11 +1,8 @@
 // event ready on document
 //$(document).ready(function() {
 $(function() {
-    $("#start").click(function()
-                     {
-        $("div").slideUp(2000).slideDown(1000).fadeOut(300).fadeIn(500);
-    });
-
+    var mylog = $("#p1").text();
+    console.log(mylog);
 
 
 })
