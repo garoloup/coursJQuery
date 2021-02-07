@@ -3,16 +3,8 @@
 $(function() {
 
     $("#start").click( function() {
-        var mylog = $("#p1").text();
+        var mylog = $("div").attr("style");
         console.log(mylog);
-        mylog = $("#p1").html();
-        console.log(mylog);
-        mylog = $("div").html();
-        console.log(mylog);
-
-        var myContent = $("#myInput").val();
-        console.log(myContent);
-
     })
 
 })
