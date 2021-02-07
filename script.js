@@ -3,10 +3,7 @@
 $(function() {
 
     $("#start").click( function() {
-//        var mylog = $("div").attr("style");
-//        console.log(mylog);
-
-        $("#myInput").val("Entrer votre nom...");
+        $("div").append("<p>Un nouveau paragraphe...</p>");
 
     })
 
