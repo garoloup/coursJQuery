@@ -3,8 +3,11 @@
 $(function() {
 
     $("#start").click( function() {
-        var mylog = $("div").attr("style");
-        console.log(mylog);
+//        var mylog = $("div").attr("style");
+//        console.log(mylog);
+
+        $("#p1").text("Mon nouveau texte");
+
     })
 
 })
