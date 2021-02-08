@@ -7,7 +7,7 @@ $(function() {
 
     })
     $("#act2").click( function() {
-        $("#p2,#p4").removeClass("red");
+        console.log( $("#p2,#p4").css("color"));
 
     })
 
