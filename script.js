@@ -3,7 +3,7 @@
 $(function() {
 
     $("#act1").click( function() {
-        $("#p2,#p4").toggleClass("red ");
+        $("#p2,#p4").css("color","red");
 
     })
     $("#act2").click( function() {
