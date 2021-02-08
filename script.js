@@ -2,16 +2,12 @@
 //$(document).ready(function() {
 $(function() {
 
-    $("#act1").click( function() {
-        $("#p2,#p4").css({
-            "color":"red",
-            "font-weight":"bold",
-            "background":"blue"
-        });
+    $("#act2").click( function() {
+        console.log($("#act1").width());
 
     })
-    $("#act2").click( function() {
-        console.log( $("#p2,#p4").css("color"));
+    $("#act1").click( function() {
+        $("#act2").width(100).height(200);
 
     })
 
