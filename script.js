@@ -2,8 +2,12 @@
 //$(document).ready(function() {
 $(function() {
 
-    $("#start").click( function() {
-        $("#p2,#p4").addClass("red bold");
+    $("#act1").click( function() {
+        $("#p2,#p4").addClass("red ");
+
+    })
+    $("#act2").click( function() {
+        $("#p2,#p4").removeClass("red");
 
     })
 
