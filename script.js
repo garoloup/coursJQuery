@@ -3,7 +3,7 @@
 $(function() {
 
     $("#start").click( function() {
-        $("#p2").addClass("red");
+        $("#p2,#p4").addClass("red");
 
     })
 
